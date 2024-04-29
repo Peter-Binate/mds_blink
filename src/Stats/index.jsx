@@ -1,8 +1,8 @@
 
 export default function Stats() {
   return (
-    <div className="md:px-24">
-      <h1 className="text-3xl text-center uppercase font-bold my-6">aujourd'hui plus de ...</h1>
+    <div className="mt-40 mb-40 md:px-24">
+      <h1 className="text-3xl text-center uppercase font-bold mt-6 mb-20">aujourd'hui plus&nbsp;de&nbsp;...</h1>
       <div className="card-container md:flex md:flex-row md:justify-center md:items-end">
         <div className="text-center px-5">
           <p className="text-5xl font-bold mb-2">00%</p>

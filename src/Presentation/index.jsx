@@ -1,9 +1,9 @@
 
 export default function Presentation() {
   return (
-    <div className="mx-auto my-12 p-12  w-11/12 md:w-3/4">
+    <div className="mx-auto mb-12 md:p-12  w-11/12 md:w-3/4">
       <h2 className="text-center uppercase text-3xl font-bold mb-20">
-        blink l'application qui ... !
+        blink l'application qui&nbsp;...&nbsp;!
       </h2>
       <div className="flex flex-col md:flex-row md:items-center md:mb-8">
         <div className="flex-1 md:pl-10">

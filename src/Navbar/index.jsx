@@ -11,9 +11,9 @@ export default function Navbar() {
   }
 
   return (
-    <div className="bg-white mx-auto md:mt-6 md:flex md:items-center md:justify-between">
+    <div className="bg-white w-full mx-auto md:flex md:items-center md:justify-between">
       <nav className="p-5 bg-white shadow w-full">
-        <div className="md:w-64 md:mt-6 md:mx-auto md:my-0 cursor-pointer flex items-center justify-between">
+        <div className="md:w-64 md:mx-auto md:my-0 cursor-pointer flex items-center justify-between">
           <span>
             <img className="w-64" src="https://www.creativefabrica.com/wp-content/uploads/2020/06/26/Sport-logo-running-logo-with-abstract-Graphics-4468205-1.jpg" alt="blink-logo" />
           </span>

@@ -1,11 +1,11 @@
 
 export default function Features() {
   return (
-    <div>
-      <h1 className="text-3xl text-center uppercase font-bold my-6">
+    <>
+      <h1 className="text-3xl text-center uppercase font-bold mt-40 mb-20">
         fonctionnement etapes
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-10 px-28 md:grid-rows-6 gap-5 md:px-48">
+      <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-5 px-2 md:grid-rows-6 gap-5 md:px-48">
         <div className="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 bg-blue-500 flex items-center flex-col p-4 rounded-lg order-1">
           <p className="mt-3 mb-8 text-4xl bg-gray-200 p-4 px-7 rounded-full">1</p>
           <h3 className="capitalize text-xl">titre paragraphe</h3>
@@ -67,6 +67,6 @@ export default function Features() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }

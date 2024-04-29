@@ -1,8 +1,8 @@
 
 export default function History() {
   return (
-    <div className="bg-sky-200">
-      <h1 className="text-3xl text-center uppercase font-bold">
+    <>
+      <h1 className="text-3xl text-center uppercase font-bold py-20">
         découvrez notre histoire
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-12 md:grid-rows-6 gap-0">
@@ -44,6 +44,6 @@ export default function History() {
             </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
