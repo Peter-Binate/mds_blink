@@ -1,7 +1,7 @@
 
 export default function Presentation() {
   return (
-    <div className="mx-auto my-12 p-12 bg-white w-11/12 md:w-3/4">
+    <div className="mx-auto my-12 p-12  w-11/12 md:w-3/4">
       <h2 className="text-center uppercase text-3xl font-bold mb-20">
         blink l'application qui ... !
       </h2>

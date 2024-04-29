@@ -14,13 +14,15 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: 
-      <div>
+      <>
         <Navbar />
-        <Banner/>
-        <Presentation />
-        <Features />
-        <Stats />
-      </div>
+        <div className="bg-sky-200">
+          <Banner/>
+          <Presentation />
+          <Features />
+          <Stats />
+        </div>
+      </>
   },
   {
     path: "/history",

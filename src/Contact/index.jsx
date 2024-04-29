@@ -1,8 +1,8 @@
 
 export default function App() {
   return (
-    <div>
-        <h1 className="text-3xl text-center uppercase font-bold mt-6 mb-20">
+    <div className="bg-sky-200">
+        <h1 className="text-3xl text-center uppercase font-bold mb-20">
             pour nous contacter !
         </h1>
         <div className="border-2 border-dark-100 bg-gray-400 h-96 w-11/12 mx-auto my-5"></div>
@@ -20,7 +20,7 @@ export default function App() {
           </button>
         </div>
 
-        <div className="mt-20 mb-40 flex flex-col items-center">
+        <div className="mt-20 pb-40 flex flex-col items-center">
           <p>Vous pouvez aussi nous retrouvez sur nos réseaux sociaux !</p>
 
           <div className="flex justify-between flex-wrap w-9/12">

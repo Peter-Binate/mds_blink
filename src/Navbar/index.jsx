@@ -11,7 +11,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="bg-white mx-auto md:my-6 md:flex md:items-center md:justify-between">
+    <div className="bg-white mx-auto md:mt-6 md:flex md:items-center md:justify-between">
       <nav className="p-5 bg-white shadow w-full">
         <div className="md:w-64 md:mt-6 md:mx-auto md:my-0 cursor-pointer flex items-center justify-between">
           <span>
