@@ -1,4 +1,5 @@
-
+import { Link } from 'react-router-dom'
+ 
 export default function Navbar() {
   return (
     <div className="border-2 border-red-100 mx-auto md:my-6 md:flex md:items-center md:justify-between">
@@ -15,17 +16,17 @@ export default function Navbar() {
         <div className="md:flex md:justify-between md:items-center md:w-fit w-3/5 mx-auto border-2 border-red-500 bg-white md:flex md:items-center z-[-1] md:z-auto md:static md:w-auto absolute left-0 md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-1 top-[-400] transition-all ease-in duration-500 w-full">
           <ul className="md:flex md:justify-between md:items-center">
             <li className="mx-4 my-6 md:0">
-              <a href="" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">Présentation</a>
+              <Link to="/" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">Présentation</Link>
             </li>
             <li className="mx-4 my-6 md:0">
-              <a href="" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">notre histoire</a>
+              <Link to="/history" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">notre histoire</Link>
             </li>
             <li className="mx-4 my-6 md:0">
-              <a href="" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">nous contacter</a>
+              <Link to="/contact" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">nous contacter</Link>
             </li>
-            <li className="mx-4 my-6 md:0">
-              <a href="" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">faq</a>
-            </li>
+            {/* <li className="mx-4 my-6 md:0">
+              <Link to="/" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">faq</Link>
+            </li> */}
           </ul>
           <button className="uppercase bg-red-400 text-white font-[Poppins] duration-500 px-6  mx-4 hover:bg-red-500 rounded-full h-14">
               télécharger l'application
