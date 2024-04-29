@@ -8,7 +8,7 @@ export default function Banner() {
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada. Sed ullamcorper augue vel sem pretium luctus. Etiam vulputate, libero vel interdum consequat, ex leo rutrum leo, in eleifend purus eros euismod tortor. Donec eu purus quis augue fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada.
       </p>
       <div className="border-2 border-dark-100 bg-gray-400 h-64 w-11/12 mx-auto my-5"></div>
-      <button className="mb-5 uppercase bg-red-400 text-white font-[Poppins] duration-500 w-2/5 px-12 hover:bg-red-500 rounded-full h-16">
+      <button className="mb-5 uppercase bg-red-400 text-white duration-500 w-2/5 px-12 hover:bg-red-500 rounded-full h-16">
               télécharger maintenant !
       </button>
     </div>

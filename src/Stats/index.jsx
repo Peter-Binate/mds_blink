@@ -8,7 +8,7 @@ export default function Stats() {
           <p className="text-5xl font-bold mb-2">00%</p>
           <div className="border-2 bg-white">
             <h3 className="my-5 capitalize text-xl">titre paragraphe</h3>
-            <p className="px-5 pb-24">
+            <p className="px-5 pb-20">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada. Sed ullamcorper augue vel sem pretium luctus. Etiam vulputate, libero vel interdum consequat, ex leo rutrum leo, in eleifend purus eros euismod tortor. Donec eu purus quis augue fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada.
             </p>
           </div>
@@ -18,7 +18,7 @@ export default function Stats() {
           <p className="text-5xl font-bold mb-2">00%</p>
           <div className="border-2 bg-white">
             <h3 className="my-5 capitalize text-xl">titre paragraphe</h3>
-            <p className="px-5 pb-10">
+            <p className="px-5 pb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada. Sed ullamcorper augue vel sem pretium luctus. Etiam vulputate, libero vel interdum consequat, ex leo rutrum leo, in eleifend purus eros euismod tortor. Donec eu purus quis augue fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada.
             </p>
           </div>
@@ -28,7 +28,7 @@ export default function Stats() {
           <p className="text-5xl font-bold mb-2">00%</p>
           <div className="border-2 bg-white">
             <h3 className="my-5 capitalize text-xl">titre paragraphe</h3>
-            <p className="px-5 pb-64">
+            <p className="px-5 pb-36">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada. Sed ullamcorper augue vel sem pretium luctus. Etiam vulputate, libero vel interdum consequat, ex leo rutrum leo, in eleifend purus eros euismod tortor. Donec eu purus quis augue fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus odio risus, nec bibendum diam ornare ut. Donec vehicula eleifend purus sed malesuada.
             </p>
           </div>
