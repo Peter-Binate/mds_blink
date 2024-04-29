@@ -36,7 +36,7 @@ export default function Navbar() {
               <Link to="/" className="text-xl uppercase hover:underline hover:underline-offset-4 duration-500">faq</Link>
             </li> */}
           </ul>
-          <button className="uppercase bg-red-400 text-white font-[Poppins] duration-500 px-6  mx-4 hover:bg-red-500 rounded-full h-14">
+          <button className="uppercase bg-red-400 text-white duration-500 px-6  mx-4 hover:bg-red-500 rounded-full h-14">
               télécharger l'application
           </button>
         </div>
