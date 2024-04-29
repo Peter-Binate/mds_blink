@@ -6,7 +6,7 @@ export default function App() {
             pour nous contacter !
         </h1>
         <div className="border-2 border-dark-100 bg-gray-400 h-96 w-11/12 mx-auto my-5"></div>
-        <div className="mt-2 ml-10">
+        <div className="mt-2 ml-16">
           <p>
             Email : blink@gmail.com
           </p>

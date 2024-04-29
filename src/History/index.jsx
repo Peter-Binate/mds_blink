@@ -6,7 +6,7 @@ export default function History() {
         découvrez notre histoire
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-12 md:grid-rows-6 gap-0">
-      <div className="col-start-1 md:col-start-1 md:col-span-2 row-start-1 md:row-start-1 row-span-6 bg-blue-500 flex flex-col items-center border-r-4 border-r-gray-800">
+      <div className="col-start-1 md:col-start-1 md:col-span-2 row-start-1 md:row-start-1 row-span-6 flex flex-col items-center border-r-4 border-r-gray-800">
           <div className="flex flex-col justify-start text-left w-80">
               <div className="border-2 border-dark-100 bg-gray-400 h-64 w-full mx-auto my-5 h-80"></div>
               <p className="text-5xl mt-10 mb-8">2024</p>
@@ -25,7 +25,7 @@ export default function History() {
             </p>
           </div>
         </div>
-        <div className="col-start-1 md:col-start-3 md:col-span-2 row-start-7 md:row-start-1 row-span-6 bg-red-500 flex flex-col items-center">
+        <div className="col-start-1 md:col-start-3 md:col-span-2 row-start-7 md:row-start-1 row-span-6 flex flex-col items-center">
             <div className="flex flex-col justify-start text-left w-80">
               <p className="text-5xl mt-3 mb-8">2024</p>
               <h3 className="capitalize text-xl mb-2">titre paragraphe</h3>

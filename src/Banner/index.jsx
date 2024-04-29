@@ -1,7 +1,7 @@
 
 export default function Banner() {
   return (
-    <div className="text-center border border-black md:px-custom-padding">
+    <div className="text-center md:px-custom-padding">
       <h2 className="uppercase text-3xl font-bold">phrase d'accroche ou slogan</h2>
       <h3 className="mt-10 mb-4 capitalize text-xl">titre paragraphe</h3>
       <p className="px-5 md:px-10">

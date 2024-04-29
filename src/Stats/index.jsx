@@ -1,11 +1,10 @@
-import React from 'react';
 
 export default function Stats() {
   return (
-    <div>
+    <div className="md:px-24">
       <h1 className="text-3xl text-center uppercase font-bold my-6">aujourd'hui plus de ...</h1>
       <div className="card-container md:flex md:flex-row md:justify-center md:items-end">
-        <div className="text-center px-10">
+        <div className="text-center px-5">
           <p className="text-5xl font-bold mb-2">00%</p>
           <div className="border-2">
             <h3 className="my-5 capitalize text-xl">titre paragraphe</h3>
