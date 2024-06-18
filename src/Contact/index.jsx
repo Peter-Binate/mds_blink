@@ -1,35 +1,62 @@
+import React from "react";
 
-export default function App() {
+export default function ContactForm() {
   return (
-    <div className="lg:px-custom-padding">
-        <h1 className="text-3xl text-center uppercase font-bold pt-20 mb-20">
-            pour nous contacter !
-        </h1>
-        <div className="border-2 border-dark-100 bg-gray-400 h-96 w-11/12 mx-auto my-5"></div>
-        <div className="mt-2 ml-16">
-          <p>
-            Email : blink@gmail.com
-          </p>
-          <p>Tel : 00 00 00 00 00</p>
-        </div>
-
-        <div className="mt-40 text-2xl mb-5 flex flex-col items-center">
-          <p className="text-center px-2">Un probléme n’hésitez pas a nous contacter via notre FAQ !</p>
-          <button className="mt-5 uppercase bg-red-400 text-white duration-500 w-4/5 lg:w-2/5 px-12 hover:bg-red-500 rounded-full h-16">
-                  télécharger maintenant !
-          </button>
-        </div>
-
-        <div className="mt-40 pb-40 flex flex-col items-center">
-          <p className="text-2xl mb-5 text-center px-2">Vous pouvez aussi nous retrouvez sur nos réseaux sociaux !</p>
-
-          <div className="flex justify-between flex-wrap w-7/12">
-            <div className="border-2 border-dark-100 bg-gray-400 w-40 h-40 mx-auto my-5"></div>
-            <div className="border-2 border-dark-100 bg-gray-400 w-40 h-40 mx-auto my-5"></div>
-            <div className="border-2 border-dark-100 bg-gray-400 w-40 h-40 mx-auto my-5"></div>
-            <div className="border-2 border-dark-100 bg-gray-400 w-40 h-40 mx-auto my-5"></div>
+    <div className="flex justify-center items-center min-h-screen">
+      <div className="bg-white p-8 rounded-lg shadow-lg max-w-2xl w-full">
+        <h2 className="text-3xl font-bold text-center mb-8">Nous contacter</h2>
+        <form>
+          <div className="mb-4">
+            <label
+              className="block text-gray-700 text-sm font-bold mb-2"
+              htmlFor="name"
+            >
+              Nom
+            </label>
+            <input
+              id="name"
+              type="text"
+              placeholder="Nom"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            />
           </div>
-        </div>
-    </div>  
+          <div className="mb-4">
+            <label
+              className="block text-gray-700 text-sm font-bold mb-2"
+              htmlFor="email"
+            >
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Email"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            />
+          </div>
+          <div className="mb-6">
+            <label
+              className="block text-gray-700 text-sm font-bold mb-2"
+              htmlFor="message"
+            >
+              Votre message
+            </label>
+            <textarea
+              id="message"
+              placeholder="Votre message"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32"
+            ></textarea>
+          </div>
+          <div className="flex items-center justify-end">
+            <button
+              type="submit"
+              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
+              Envoyer
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
   );
 }

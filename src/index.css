@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Importation des polices */
+@font-face {
+  font-family: "Luciole";
+  src: url("./assets/fonts/Luciole-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Luciole";
+  src: url("./assets/fonts/Luciole-Bold-Italic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Luciole";
+  src: url("./assets/fonts/Luciole-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Luciole";
+  src: url("./assets/fonts/Luciole-Regular-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Application de la police à l'ensemble du site */
+body {
+  font-family: "Luciole", sans-serif;
+  color: #353535;
+}
