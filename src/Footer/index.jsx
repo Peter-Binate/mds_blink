@@ -1,8 +1,8 @@
-import logo from "../assets/images/logo.png"; // Adjust the path as necessary
-import facebookIcon from "../assets/images/facebook.png"; // Adjust the path as necessary
-import xIcon from "../assets/images/x.png"; // Adjust the path as necessary
-import instagramIcon from "../assets/images/instagram.png"; // Adjust the path as necessary
-import linkedinIcon from "../assets/images/linkedin.png"; // Adjust the path as necessary
+import logo from "../assets/images/logo.png";
+import facebookIcon from "../assets/images/facebook.png";
+import xIcon from "../assets/images/x.png";
+import instagramIcon from "../assets/images/instagram.png";
+import linkedinIcon from "../assets/images/linkedin.png";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (

@@ -1,3 +1,5 @@
+import logo from "../assets/images/logo.png";
+
 export default function Banner() {
   return (
     <div className="text-center md:px-custom-padding">
@@ -12,7 +14,7 @@ export default function Banner() {
       <div className="w-full mt-10 lg:flex lg:justify-center lg:items-center">
         <div className="md:h-64 w-2/5 mx-auto my-5">
           <img
-            src="/src/assets/images/logo.png"
+            src={logo}
             alt="Blink Sport"
             className="w-full h-full object-contain"
           />

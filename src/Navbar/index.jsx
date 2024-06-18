@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex justify-between items-center my-2 md:my-0">
             <img
-              src="/src/assets/images/logoNav.png"
+              src={logo}
               alt="Blink Sport"
               className="h-16 mr-12 md:my-5 md:mr-0 md:h-20"
             />
